@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch('essay.json')
       .then(response => response.json())
       .then(data => {
-        const essay = data.find(e => e.slug === senior thesis);
+        const essay = data.find(e => e.slug === slug);
         if (essay) {
           const essayContent = document.querySelector('.essay-content');
           
