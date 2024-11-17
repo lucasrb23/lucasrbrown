@@ -64,9 +64,10 @@
     margin-bottom: 0px;
     font-size: 20px;
     width: 30%; /* Adjust the width as needed */
-    margin-left: auto;
-    margin-right: auto;
     text-align: left; /* Keeps the text left-aligned */
+    line-height: 1.6;
+    padding-top: 10px;
+    max-width: 450px;
     font-family: "Helvetica", sans-serif;
     font-weight: bold;
   }
